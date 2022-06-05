@@ -18,20 +18,20 @@
 
 ## ⚒️ Tecnologies (example)
 - [Express](https://expressjs.com/pt-br/)
-- [Jest](https://jestjs.io/)
-- [TypeORM](https://typeorm.io/#/)
-- [Ethereal-Email](https://ethereal.email/)
-- [Typescript](https://www.typescriptlang.org/)
-
+- [Knex]([https://jestjs.io/](http://knexjs.org/))
+- [Vue](https://vuejs.org/)
+- 
 ## 💻 Project
-This project as developed with purpose to use for all my projects template :D.
+This project as developed using Vue.js and Node.js 
 
 ## 🚀 How start
-- Install dependencies using `yarn`
-- start web server in localhost using `yarn dev`
+- Install dependencies using `npm i`
+- open directory "backend" and in command line start server using `npm run start` - server will run in `localhost:3000`
+- open directory "front" and in command line start server using `npm run serve` - project will run in `localhost:8000`
+
 
 ## 🕸️ Test in WEB
-Open Bowser in [`localhost:3333`](http://localhost:3333).
+Open Bowser in [`localhost:8000`](http://localhost:8000).
 
 # 📚 Docs
 - OpenApi 3.0 Using Swagger
