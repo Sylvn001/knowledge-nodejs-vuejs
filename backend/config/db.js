@@ -1,5 +1,5 @@
-const config = require("../knexfile");
+const config = require("../knexfile.js");
+const knex = require("knex")(config);
 
-const knex = require("knes")(config);
-
+knex.migrate.latest([config]); //No recommended in production
 module.exports = knex;
