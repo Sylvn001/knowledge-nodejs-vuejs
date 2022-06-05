@@ -28,7 +28,8 @@ This project as developed using Vue.js and Node.js
 - Install dependencies using `npm i`
 - open directory "backend" and in command line start server using `npm run start` - server will run in `localhost:3000`
 - open directory "front" and in command line start server using `npm run serve` - project will run in `localhost:8000`
-- 
+
+
 ## 🕸️ Test in WEB
 Open Bowser in [`localhost:8000`](http://localhost:8000).
 
