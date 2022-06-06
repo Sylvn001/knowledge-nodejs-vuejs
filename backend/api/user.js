@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt-nodejs");
 module.exports = (app) => {
   const { existsOrError, notExistsOrError, equalsOrError } = app.api.validation;
 
-  const encryptPassword = (passowrd) => {
+  const encryptPassword = (password) => {
     const salt = bcrypt.genSaltSync(10);
     return bcrypt.hashSync(password, salt);
   };
@@ -34,7 +34,7 @@ module.exports = (app) => {
       return res.status(400);
     }
 
-    user.passowrd = encryptPassword(user.passowrd);
+    user.password = encryptPassword(user.password);
     delete user.confirmPassword;
 
     if (user.id) {
@@ -42,14 +42,14 @@ module.exports = (app) => {
         .db("users")
         .update(user)
         .where({ id: user.id })
-        .then((_) => res.status(204).send())
-        .catch((err) => res.status(500).send(err));
+        .then((_) => res.status(200).json(user))
+        .catch((err) => res.status(500).json(err));
     } else {
       app
         .db("users")
         .insert(user)
-        .then((_) => res.status(204).send(user))
-        .catch((err) => res.status(500).send(err));
+        .then((_) => res.status(201).json(user))
+        .catch((err) => res.status(500).json(err));
     }
   };
 
