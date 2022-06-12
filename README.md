@@ -1,8 +1,8 @@
-# Template Repository Name
+# Knowledge
 
-> Resume of application here
+> A application to create and manipulate articles, users
 
-### 💻 Main language - Version
+### 💻 NodeJS  16 LTS, Vue.js 3
 
 <p align="center">
   <a href="#%EF%B8%8F-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -20,7 +20,8 @@
 - [Express](https://expressjs.com/pt-br/)
 - [Knex]([https://jestjs.io/](http://knexjs.org/))
 - [Vue](https://vuejs.org/)
-- 
+- [postgres](https://www.postgresql.org/)
+
 ## 💻 Project
 This project as developed using Vue.js and Node.js 
 
@@ -31,7 +32,7 @@ This project as developed using Vue.js and Node.js
 
 
 ## 🕸️ Test in WEB
-Open Bowser in [`localhost:8000`](http://localhost:8000).
+Open Bowser in [`localhost:8080`](http://localhost:8080).
 
 # 📚 Docs
 - OpenApi 3.0 Using Swagger
