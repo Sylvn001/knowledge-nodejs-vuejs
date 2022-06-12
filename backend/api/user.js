@@ -66,6 +66,8 @@ module.exports = (app) => {
   };
 
   const getById = (req, res) => {
+    // #swagger.tags = ['User']
+    // #swagger.description = 'Endpoint para obter um usuário.'
     const id = req.params.id;
     app
       .db("users")

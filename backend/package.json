@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon",
-    "production": "pm2 start index.js --name knowledge-backend"
+    "start": "node swagger.js",
+    "start:watch": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -24,7 +24,9 @@
     "passport": "0.4.0",
     "passport-jwt": "4.0.0",
     "pg": "^8.7.3",
-    "pm2": "3.0.4"
+    "pm2": "3.0.4",
+    "swagger-autogen": "^2.21.3",
+    "swagger-ui-express": "^4.1.4"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
