@@ -13,14 +13,16 @@
   <a href="#atom_symbol-follow-me">Follow Me!</a>
 </p>
 
-![image](https://user-images.githubusercontent.com/50564121/163297818-11a4d919-58a0-4b2b-b65e-110d3aa55f72.png)
+![Image](https://user-images.githubusercontent.com/50564121/173404290-2c1b3297-598a-4925-8af3-994807bddc6b.png)
 
 
 ## ⚒️ Tecnologies (example)
 - [Express](https://expressjs.com/pt-br/)
-- [Knex]([https://jestjs.io/](http://knexjs.org/))
+- [Knex](http://knexjs.org)
 - [Vue](https://vuejs.org/)
-- [postgres](https://www.postgresql.org/)
+- [Postgres](https://www.postgresql.org/)
+- [Mongoose](https://mongoosejs.com/)
+- [MongoDB](https://www.mongodb.com/docs/)
 
 ## 💻 Project
 This project as developed using Vue.js and Node.js 
