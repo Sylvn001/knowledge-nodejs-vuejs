@@ -39,7 +39,7 @@ export default {
 <style>
 .header {
   grid-area: header;
-  background: #4b76d4;
+  background: #434d67;
 
   display: flex;
   justify-content: center;
