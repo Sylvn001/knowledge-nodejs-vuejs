@@ -16,7 +16,7 @@
 ![Image](https://user-images.githubusercontent.com/50564121/173404290-2c1b3297-598a-4925-8af3-994807bddc6b.png)
 
 
-## ⚒️ Tecnologies (example)
+## ⚒️ Tecnologies 
 - [Express](https://expressjs.com/pt-br/)
 - [Knex](http://knexjs.org)
 - [Vue](https://vuejs.org/)
@@ -34,12 +34,11 @@ This project as developed using Vue.js and Node.js
 
 
 ## 🕸️ Test in WEB
-Open Bowser in [`localhost:8080`](http://localhost:8080).
+Open Bowser in [`localhost:8080`](http://localhost:8080)
 
 # 📚 Docs
 - OpenApi 3.0 Using Swagger
-- Check Here [BlogApi](https://apiblognestjs.herokuapp.com/api)
-- URL Docs: [Docs](localhost:3000/api)
+- Check docs in Localhost - [Docs](http://localhost:3000/api) 
 
 ## 📝 License
 This project use a <a href="./LICENSE"> MIT </a> License
