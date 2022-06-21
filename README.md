@@ -42,8 +42,7 @@ Open Bowser in [`localhost:8080`](http://localhost:8080)
 
 ## Pages 
 - Login 
-![image](https://user-images.githubusercontent.com/50564121/174422727-51a6c561-8a86-4c53-a84a-443efa544e93.png)
-
+![image](https://user-images.githubusercontent.com/50564121/174888934-1b88c023-3a59-4265-a796-08ed3b5d3df4.png)
 ## 📝 License
 This project use a <a href="./LICENSE"> MIT </a> License
 
